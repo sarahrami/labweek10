@@ -1,0 +1,32 @@
+/* Add this to your CSS file */
+
+.data-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.submitted-data {
+    margin-top: 20px;
+    border: 2px solid greenyellow;
+    padding: 1.5rem 6rem 1.5rem;
+  }
+  
+  .submitted-data p {
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'American Typewriter', serif;
+    font-size: larger;
+    font-weight: bold;
+    margin: 5px;
+  }
+  
+  .submitted-data span {
+    margin-right: 10px;
+    color: green;
+  }
+  
+  .submitted-data .data {
+    color: black;
+    font-weight: normal;
+  }
+  

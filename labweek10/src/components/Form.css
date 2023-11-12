@@ -1,0 +1,55 @@
+/* Form.css */
+.App {
+    margin: 3rem;
+}
+form {
+    border: darkgreen 3px solid;  
+    padding: 1rem;
+}
+
+.form-row {
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 1rem; 
+}
+
+.form-div {
+    flex: 1;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    font-size: large;
+    white-space: nowrap;
+}
+
+input, select {
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: .5rem;
+    font-size: large;
+    border-radius: 2px;
+    cursor: pointer;
+   
+}
+
+.terms-check-group {
+    display: flex;
+    align-items: center;
+}
+
+.clear-btn {
+    background-color: grey;
+    color: white;
+}
